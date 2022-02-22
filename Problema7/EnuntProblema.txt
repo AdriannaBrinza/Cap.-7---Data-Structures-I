@@ -1,0 +1,22 @@
+Simulam o clasa de elevi si o catedra de profesori.
+Sa se creeze un program prin care se cer urmatoarele cerinte:
+//Clase pentru creare
+1.1. Se creeaza clasa Curs cu field-urile: nume curs, id curs.
+1.2. Se creeaza clasa Persoana cu field-urile: nume complet, varsta.
+1.3. Se creeaza clasa Elev care va mosteni clasa Persoana.Clasa Elev va avea ca proprietate in plus o lista de cursuri. (cursurile la care merge elevul)
+1.3. Se creeaza clasa Profesor care va mosteni clasa Persoana. Clasa Profesor va avea ca proprietate in plus o lista de cursuri.
+(cursurile pe care le tine profesorul)
+
+In metoda main se vor creea mai multe obiecte de tip Curs. (Nu este neaparat nevoie sa le cititi de la tastatura.
+Puteti sa omiteti pentru a va axa pe cerintele principale).
+Se va crea un obiect de tipul Student si un Obiect de tipul Profesor. (Incercati sa nu le adaugati aceleasi cursuri la fiecare.
+Atentie la cerintele principale).
+
+1. Se cere sa se implementeze o metoda/modalitate prin care se determina (se afiseaza) la ce cursuri merge un student, cursuri pe care le tine un profesor.
+Cu alte cuvinte vrem sa determinam cursurile comune ale elevului si ale profesorului.
+Exemplu:
+cursurile elevului <matematica, statistica, programare, filosofie>
+cursurile profesorului <matematica, statistica, matematica discreta>
+Se va afisa: matematica, statistica.
+
+2. Daca se da un obiect de tip Curs sa se determine daca un student si un profesor au acest curs in comun.
